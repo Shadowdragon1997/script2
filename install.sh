@@ -171,7 +171,7 @@ install_XrayR() {
     if [[ ! -f /etc/XrayR/custom_outbound.json ]]; then
         cp custom_outbound.json /etc/XrayR/
     fi
-    curl -o /usr/bin/XrayR -Ls https://raw.githubusercontent.com/Shadowdragon1997/script2/main/XrayR.sh
+    curl -o /usr/bin/XrayR -Ls https://raw.githubusercontent.com/Shadowdragon1997/script2/master/XrayR.sh
     chmod +x /usr/bin/XrayR
     ln -s /usr/bin/XrayR /usr/bin/xrayr # Chữ thường tương thích
     chmod +x /usr/bin/xrayr
